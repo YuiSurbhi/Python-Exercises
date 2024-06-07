@@ -1,4 +1,4 @@
-#lambda function 
+#lambda_function 
 
 def appl(fx,value):
     return fx(value)
