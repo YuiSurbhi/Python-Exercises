@@ -1,4 +1,4 @@
-#map(),filter(), and reduce()
+#MAP(), FILTER(), and REDUCE()
 
 #MAP()
 def cube(a):
