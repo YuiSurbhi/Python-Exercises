@@ -24,7 +24,7 @@ def filter_function(l):
 newl = list(filter(filter_function,l))
 print(newl)
 
-#REDUCE
+#REDUCE()
 from functools import reduce
 
 #list of numbers
