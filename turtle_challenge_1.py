@@ -76,7 +76,7 @@ import random
 timmy = t.Turtle()
 timmy.shape("turtle")
 
-colors = ["midnight blue","medium sea green	","gold","maroon","hot pink","dark slate blue","orange red","dark slate gray"]
+colors = ["midnight blue","medium sea green","gold","maroon","hot pink","dark slate blue","orange red","dark slate gray"]
 
 def draw_shapes(num_sides):
     angle = 360/ num_sides
