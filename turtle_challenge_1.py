@@ -68,3 +68,22 @@ for _ in range(10):
     timmy.right(36)
     timmy.forward(100)
 screen.exitonclick()
+
+#another way to draw different shapes using turtle 
+import turtle as t
+import random 
+
+timmy = t.Turtle()
+timmy.shape("turtle")
+
+colors = ["midnight blue","medium sea green	","gold","maroon","hot pink","dark slate blue","orange red","dark slate gray"]
+
+def draw_shapes(num_sides):
+    angle = 360/ num_sides
+    for _ in range(num_sides):
+        timmy.forward(100)
+        timmy.right(angle)
+
+for shape_side_n in range(3,11):
+    timmy.color(random.choice(colors))
+    draw_shapes(shape_side_n)
