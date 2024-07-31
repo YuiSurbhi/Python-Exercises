@@ -1,2 +1,1 @@
-# Python-Notes
-My Python Notes
+# Python-Exercise 
